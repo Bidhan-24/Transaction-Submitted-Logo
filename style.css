@@ -12,21 +12,20 @@ body{
     background-color: #475569;
 }
 
-.container .logo{
-    width: 40px;
-    position: absolute;
-    right: 0;
-    margin: 20px 20px;
-
-
-}
-
 .container{
     width: 400px;
     height: 550px;
     background-color: #FFFFFF;
     margin: 150px auto;
     border-radius: 10px;
+    position: relative;
+}
+
+.container .logo{
+    width: 40px;
+    position: absolute;
+    right: 0;
+    margin: 20px 20px;
 }
 
 .container img{
